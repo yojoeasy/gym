@@ -1,0 +1,77 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(./img/gym.webp);
+    color: white ;
+    background-size: cover;
+}
+ .left{
+     margin: 20px 20px;
+ }
+ .left img{
+     width: 70px;
+     height:70px;
+     border: 2px solid white;
+     border-radius: 40px;
+ }
+ .mid .navbar {
+     display: inline-block;
+     width: 60%;
+     position: absolute;
+     top: 20px;
+     left: 25%;
+ }
+ .navbar li{
+    display: inline-block;
+    list-style-type: none;
+    border-right: 2px solid white;
+    padding: 0 10px;
+    font-size: 2rem;
+ }
+ .navbar li a{
+     text-decoration: none;
+     color: white;
+ }
+ .navbar li a:hover{
+     cursor: pointer;
+     background-color: white;
+     color: black;
+ }
+ .right{
+     display: inline-block;
+     position: absolute;
+     top: 20px;
+     right: 20px;
+ }
+ .btn{
+     background-color: black;
+     color: white;
+     font-size: 1.5rem;
+ }
+.main{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    top: 500px;
+    left:150px;
+    width: 50%;
+}
+.main input {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.main button{
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 30px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    display: block;
+}
+
+ 
